@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5, CCS3,JAVASCRIPT, JQUERY, JSON, REST">
+    <meta name="author" content="Diana Salazar M.">
+    <title>Elecciones de Costa Rica 2018</title>
+</head>
+
+<style>
+    body {
+        font-family: "Georgia";
+        background: linear-gradient(to right, rgb(43, 56, 233), rgb(233, 233, 233), rgb(179, 46, 90), rgb(233, 233, 233), rgb(43, 56, 233));
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+        background: #f1ecd3;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <br>
+        <h1>Elecciones de Costa Rica 2018 TicoElectoral</h1>
+        <h2>INFÓRMATE DE LOS RESULTADOS</h2>
+    </header>
+    <br>
+    <table border="1" align="center">
+        <caption>Candidatos a Presidencia</caption>
+
+        <tr>
+            <td> <a href="Candidato1.html" target="_blank"> <img
+                        src="img/fabricio.png" alt=""></a> </td>
+            <td> <a href="Candidato2.html" target="_blank"> <img
+                        src="img/carlos.png" alt=""> </a></td>
+        </tr>
+
+        <tr>
+            <td> <a href="Candidato3.html" target="_blank"> <img
+                        src="img/antonio.png" alt=""> </a></td>
+            <td> <a href="Candidato4.html" target="_blank"> <img
+                        src="img/rodolfo_p.png" alt=""> </a></td>
+
+        </tr>
+    </table>
+
+    </table>
+    <br>
+    <table border="1" align="center">
+        <caption>Resultado Encuestas</caption>
+
+        <thead>
+            <tr>
+                <th>Partido</th>
+                <th>Candidato</th>
+                <th><a href="https://www.elmundo.cr/costa-rica/encuesta-castro-288-alvarez-274-piza-125-hernandez-111/">Encuesta
+                        #1</a></th>
+                <th><a href="https://www.nacion.com/el-pais/politica/analisis-lo-que-la-encuesta-de-la-ucr-muestra-son/P4Z7ZWQBFJHPNA4ROWN7EKHTEQ/story/
+                " target="_blank">Encuesta #2</a></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/restauracionnacional.jpg" alt="" height="50" width="90"></td>
+                <td>Fabricio Alvarado</td>
+                <td>6,6%</td>
+                <td>16,9%</td>
+
+            </tr>
+
+            <tr>
+                <td><img src="img/Bandera_Partido_Acción_Ciudadana_Costa_Rica.svg" alt="" height="50" width="90"></td>
+                <td>Carlos Alvarado</td>
+                <td>10,6%</td>
+                <td>4,7%</td>
+
+            </tr>
+
+            <tr>
+                <td><img src="img/Bandera_de_Partido_Liberación_Nacional.svg.png" alt="" height="50" width="90"></td>
+                <td>Antonio Álvarez</td>
+                <td>27,4%</td>
+                <td>12,4%</td>
+
+            </tr>
+
+            <tr>
+                <td><img src="img/pusc.jpg" alt="" height="50" width="90"></td>
+                <td>Rodolfo Piza</td>
+                <td>12,5%</td>
+                <td>8,2%</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Informacion de Referencia</h3>
+    <ol>
+        <li><a href="Candidato1.html"
+                target="_self">Candidato 1</a></li>
+        <li><a href="Candidato2.html"
+                target="_self">Candidato 2</a></li>
+        <li><a href="Candidato3.html"
+                target="_self">Candidato 3</a></li>
+        <li><a href="Candidato4.html"
+                target="_self">Candidato 4</a></li>
+        <li><a href="https://www.tse.go.cr/dondevotarM/#" target="_self">Lugares de Votación</a></li>
+        <li><a href="Encuestas.html"
+                target="_self">Encuestas</a></li>
+    </ol>
+
+    <footer>
+        <center>
+            <p>Derechos Reservados Diana Salazar Murillo</p>
+            <p>ISW_2021</p>
+
+        </center>
+    </footer>
+</body>
+
+</html>
